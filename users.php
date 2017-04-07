@@ -1,6 +1,5 @@
 <?php
 //	$connection = mysqli_connect('127.0.0.1', 'root', '', 'github') or die("Error " . mysqli_error($connection));
-	$connection = mysqli_connect('sql208.byethost18.com', 'b18_19058939', 'congobongo', 'b18_19058939_DB') or die("Error " . mysqli_error($connection));
 
 	if( !($_GET['isuser'] == null )){
 		$sql = "SELECT * FROM git_users WHERE id = " . $_GET['isuser'];
